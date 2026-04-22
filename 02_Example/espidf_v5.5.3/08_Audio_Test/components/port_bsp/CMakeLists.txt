@@ -1,0 +1,18 @@
+idf_component_register(
+    SRCS
+    "port_power.cpp"
+    "port_i2c.cpp"
+    "port_display.cpp"
+    "port_lvgl.cpp"
+    "port_codec.cpp"
+    PRIV_REQUIRES
+    driver
+    codec_board
+    espressif__esp_codec_dev
+    esp_lcd
+    esp_timer
+    REQUIRES
+    lvgl
+    INCLUDE_DIRS
+    "./"
+)

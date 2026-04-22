@@ -1,0 +1,6 @@
+dependencies:
+  idf:
+    version: '>=4.1.0'
+  lvgl/lvgl: ^9.3.0
+  espressif/button: "*"
+  espressif/esp_io_expander_tca9554: "^2.0.3"
