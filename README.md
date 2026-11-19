@@ -3,6 +3,10 @@
 中文wiki链接: https://docs.waveshare.net/ESP32-C6-ePaper-1.54<br>
 Product English wiki link: https://docs.waveshare.com/ESP32-C6-ePaper-1.54<br>
 
+## Quick start / 快速开始
+
+Factory firmware and flashing instructions are available in [firmware/](firmware/). 出厂固件及烧录说明见 [firmware/](firmware/)。
+
 # Arduino example Tools configuration
 ![alt text](<Tools Configuration.png>)
 
